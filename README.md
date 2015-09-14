@@ -20,11 +20,11 @@ Fields
 Files
 -----
 
-Each file comes in CSV, JSON, and XML formats.
+Each file will come in CSV, JSON, and XML formats.
 
 * "full" contains all fields.
-* "transliterate" contains only the "character" and "transliteration" fields.
-* "transliterate-alt" contains the "character" and "alt-transliteration" fields, meant to supplement "transliterate".  It does not contain a unique identifier per row.
+* *(in progress)* "transliterate" contains only the "character" and "transliteration" fields.
+* *(in progress)* "transliterate-alt" contains the "character" and "alt-transliteration" fields, meant to supplement "transliterate".  It does not contain a unique identifier per row.
 
 Notes and Transliteration Special-Cases
 ---------------------------------------
