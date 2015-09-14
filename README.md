@@ -7,10 +7,11 @@ Assembled by Natasha L. (@lupinia)
 
 Fields
 ------
-* **character** *(str, utf8)* - The Unicode character for the syllable.
+* **character** *(str, unicode)* - The Unicode character for the syllable.
 * **transliteration** *(str)* - The syllable's main/official Latin alphabet representation.  Never more than three letters long.
 * **transliteration_alt** *(str)* - Other transliterations in common use.  Generally not recommended when converting syllabic characters to Latin letters for Cherokee speakers to read, but they're sometimes used to make the language more accessible to English speakers.  For example, the name "Keetoowah" in the name of the United Keetoowah Band tribe is written in Cherokee as ᎩᏚᏩ, which transliterates as "Giduwa" (or, more commonly, "Kituwa"), but which is still pronounced "Keetoowah".
 * **pronunciation_us** *(str)* - An approximate pronunciation based on American English.
+* **pronunciation_notes** *(str)* - Extra notes further explaining the pronunciation.
 * **startswith_vowel** *(bool)* - Indicates a syllable that doesn't start with a consonant, which can cause transliteration issues.
 * **endswith_consonant** *(bool)* - Indicates a syllable that does not end in a vowel, which can cause transliterations issues.
 * **chart_row** *(int)* - When displaying characters on a syllabary chart/table, this is the row in which it appears.  Values can be 1-6.  Note:  Each cell on a syllabary chart can contain up to three characters.
@@ -32,6 +33,8 @@ Notes and Transliteration Special-Cases
 * For syllables that start with a vowel and appear mid-word, disambiguation marks - such as an apostrophe - can be used in the Latin alphabet transliteration to indicate that the vowels are separate syllables (for example, "oli'i" instead of "olii").  There is one exception to this, which a diphthong created by the "ai" combination, pronounced like the long "i" in English; for example, in the word for "icon", ᎠᎢᎧᏂ (aikani).
 * The combination of syllables ending in a consonant, and syllables beginning in a vowel, can cause serious issues when transliterating from Latin letters to  characters.  The "s" syllable (Ꮝ) further complicates this problem, because it can turn any syllable into one that ends in a consonant.
 * Syllables written in the Latin alphabet are often separated with hyphens.
+* Syllable emphasis in a given word is something that cannot be programmatically determined for a pronunciation guide.
+* Similarly, Cherokee is a tonal language, and tonal emphasis cannot be programmatically determined.
 
 License
 -------

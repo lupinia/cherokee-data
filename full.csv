@@ -1,0 +1,86 @@
+﻿character,transliteration,pronunciation_us,pronunciation_notes,chart_row,chart_col,startswith_vowel,endswith_consonant
+Ꭰ,a,ah,"Like ""hah"" or ""nah""",1,1,Y,N
+Ꭱ,e,ay,"Like ""day""",2,1,Y,N
+Ꭲ,i,ee,"Like ""see""",3,1,Y,N
+Ꭳ,o,oh,"Like ""so"" or ""go""",4,1,Y,N
+Ꭴ,u,oo,"Like ""cool""",5,1,Y,N
+Ꭵ,v,uh,"Like ""duh"", but nasalized",6,1,Y,N
+Ꭶ,ga,gah,"""ah"" like ""hah"" or ""nah""",1,2,N,N
+Ꭷ,ka,kah,"""ah"" like ""hah"" or ""nah""",1,2,N,N
+Ꭸ,ge,gay,"""ay"" like ""day""",2,2,N,N
+Ꭹ,gi,gee,"""ee"" like ""see""",3,2,N,N
+Ꭺ,go,goh,"""oh"" like ""oh"", ""so"", or ""go""",4,2,N,N
+Ꭻ,gu,goo,"""oo"" like ""cool""",5,2,N,N
+Ꭼ,gv,guh,"""uh"" like ""duh"", but nasalized",6,2,N,N
+Ꭽ,ha,hah,"""ah"" like ""hah"" or ""nah""",1,3,N,N
+Ꭾ,he,hay,"""ay"" like ""day""",2,3,N,N
+Ꭿ,hi,hee,"""ee"" like ""see""",3,3,N,N
+Ꮀ,ho,hoh,"""oh"" like ""oh"", ""so"", or ""go""",4,3,N,N
+Ꮁ,hu,hoo,"""oo"" like ""cool""",5,3,N,N
+Ꮂ,hv,huh,"""uh"" like ""duh"", but nasalized",6,3,N,N
+Ꮃ,la,lah,"""ah"" like ""hah"" or ""nah""",1,4,N,N
+Ꮄ,le,lay,"""ay"" like ""day""",2,4,N,N
+Ꮅ,li,lee,"""ee"" like ""see""",3,4,N,N
+Ꮆ,lo,loh,"""oh"" like ""oh"", ""so"", or ""go""",4,4,N,N
+Ꮇ,lu,loo,"""oo"" like ""cool""",5,4,N,N
+Ꮈ,lv,luh,"""uh"" like ""duh"", but nasalized",6,4,N,N
+Ꮉ,ma,mah,"""ah"" like ""hah"" or ""nah""",1,5,N,N
+Ꮊ,me,may,"""ay"" like ""day""",2,5,N,N
+Ꮋ,mi,mee,"""ee"" like ""see""",3,5,N,N
+Ꮌ,mo,moh,"""oh"" like ""oh"", ""so"", or ""go""",4,5,N,N
+Ꮍ,mu,moo,"""oo"" like ""cool""",5,5,N,N
+Ꮎ,na,nah,"""ah"" like ""hah"" or ""nah""",1,6,N,N
+Ꮐ,nah,nah,"""ah"" like ""hah"" or ""nah"", but with an emphasis on the ""h"".  Rarely used.",1,6,N,Y
+Ꮏ,hna,hnah,"""ah"" like ""hah"" or ""nah""; ""h"" at the beginning is subtle but present.",1,6,N,N
+Ꮑ,ne,nay,"""ay"" like ""day""",2,6,N,N
+Ꮒ,ni,nee,"""ee"" like ""see""",3,6,N,N
+Ꮓ,no,noh,"""oh"" like ""oh"", ""so"", or ""go""",4,6,N,N
+Ꮔ,nu,noo,"""oo"" like ""cool""",5,6,N,N
+Ꮕ,nv,nuh,"""uh"" like ""duh"", but nasalized",6,6,N,N
+Ꮖ,qua,kwah,"""ah"" like ""hah"" or ""nah""",1,7,N,N
+Ꮗ,que,kway,"""ay"" like ""day""",2,7,N,N
+Ꮘ,qui,kwee,"""ee"" like ""see""",3,7,N,N
+Ꮙ,quo,kwoh,"""oh"" like ""oh"", ""so"", or ""go""",4,7,N,N
+Ꮚ,quu,kwoo,"""oo"" like ""cool""",5,7,N,N
+Ꮛ,quv,kwuh,"""uh"" like ""duh"", but nasalized",6,7,N,N
+Ꮜ,sa,sah,"""ah"" like ""hah"" or ""nah""",1,8,N,N
+Ꮝ,s,s,"Like any ""s"" in English.  Not pronounced separately; it modifies any syllable to end in an ""s"".",1,8,N,Y
+Ꮞ,se,say,"""ay"" like ""day""",2,8,N,N
+Ꮟ,si,see,"""ee"" like ""see""",3,8,N,N
+Ꮠ,so,soh,"""oh"" like ""oh"", ""so"", or ""go""",4,8,N,N
+Ꮡ,su,soo,"""oo"" like ""cool""",5,8,N,N
+Ꮢ,sv,suh,"""uh"" like ""duh"", but nasalized",6,8,N,N
+Ꮣ,da,dah,"""ah"" like ""hah"" or ""nah""",1,9,N,N
+Ꮤ,ta,tah,"""ah"" like ""hah"" or ""nah""",1,9,N,N
+Ꮥ,de,day,"""ay"" like ""day""",2,9,N,N
+Ꮦ,te,tay,"""ay"" like ""day""",2,9,N,N
+Ꮧ,di,dee,"""ee"" like ""see""",3,9,N,N
+Ꮨ,ti,tee,"""ee"" like ""see""",3,9,N,N
+Ꮩ,do,doh,"""oh"" like ""oh"", ""so"", or ""go""",4,9,N,N
+Ꮪ,du,doo,"""oo"" like ""cool""",5,9,N,N
+Ꮫ,dv,duh,"""uh"" like ""duh"", but nasalized",6,9,N,N
+Ꮬ,dla,dlah,"""ah"" like ""hah"" or ""nah""",1,10,N,N
+Ꮭ,tla,tlah,"""ah"" like ""hah"" or ""nah""",1,10,N,N
+Ꮮ,tle,tlay,"""ay"" like ""day""",2,10,N,N
+Ꮯ,tli,tlee,"""ee"" like ""see""",3,10,N,N
+Ꮰ,tlo,tloh,"""oh"" like ""oh"", ""so"", or ""go""",4,10,N,N
+Ꮱ,tlu,tloo,"""oo"" like ""cool""",5,10,N,N
+Ꮲ,tlv,tluh,"""uh"" like ""duh"", but nasalized",6,10,N,N
+Ꮳ,tsa,chah,"""ah"" like ""hah"" or ""nah""; ""ch"" at the beginning has a harsher sound than English, as if a ""t"" were in front of it.",1,11,N,N
+Ꮴ,tse,chay,"""ay"" like ""day""; ""ch"" at the beginning has a harsher sound than English, as if a ""t"" were in front of it.",2,11,N,N
+Ꮵ,tsi,chee,"""ee"" like ""see""; ""ch"" at the beginning has a harsher sound than English, as if a ""t"" were in front of it.",3,11,N,N
+Ꮶ,tso,choh,"""oh"" like ""oh"", ""so"", or ""go""; ""ch"" at the beginning has a harsher sound than English, as if a ""t"" were in front of it.",4,11,N,N
+Ꮷ,tsu,choo,"""oo"" like ""cool""; ""ch"" at the beginning has a harsher sound than English, as if a ""t"" were in front of it.",5,11,N,N
+Ꮸ,tsv,chuh,"""uh"" like ""duh"", but nasalized; ""ch"" at the beginning has a harsher sound than English, as if a ""t"" were in front of it.",6,11,N,N
+Ꮹ,wa,wah,"""ah"" like ""hah"" or ""nah""",1,12,N,N
+Ꮺ,we,way,"""ay"" like ""day""",2,12,N,N
+Ꮻ,wi,wee,"""ee"" like ""see""",3,12,N,N
+Ꮼ,wo,woh,"""oh"" like ""oh"", ""so"", or ""go""",4,12,N,N
+Ꮽ,wu,woo,"""oo"" like ""cool""",5,12,N,N
+Ꮾ,wv,wuh,"""uh"" like ""duh"", but nasalized",6,12,N,N
+Ꮿ,ya,yah,"""ah"" like ""hah"" or ""nah""",1,13,N,N
+Ᏸ,ye,yay,"""ay"" like ""day""",2,13,N,N
+Ᏹ,yi,yee,"""ee"" like ""see""",3,13,N,N
+Ᏺ,yo,yoh,"""oh"" like ""oh"", ""so"", or ""go""",4,13,N,N
+Ᏻ,yu,yoo,"""oo"" like ""cool""",5,13,N,N
+Ᏼ,yv,yuh,"""uh"" like ""duh"", but nasalized",6,13,N,N
