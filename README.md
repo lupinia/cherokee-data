@@ -9,7 +9,7 @@ Fields
 ------
 * **character** *(str, unicode)* - The Unicode character for the syllable.
 * **transliteration** *(str)* - The syllable's main/official Latin alphabet representation.  Never more than three letters long.
-* **transliteration_alt** *(str)* - Other transliterations in common use.  Generally not recommended when converting syllabic characters to Latin letters for Cherokee speakers to read, but they're sometimes used to make the language more accessible to English speakers.  For example, the name "Keetoowah" in the name of the United Keetoowah Band tribe is written in Cherokee as ᎩᏚᏩ, which transliterates as "Giduwa" (or, more commonly, "Kituwa"), but which is still pronounced "Keetoowah".
+* **transliteration_alt** *(str)* - Other transliterations in common use.  Generally not recommended when converting syllabic characters to Latin letters for Cherokee speakers to read, but they're sometimes used to make the language more accessible to English speakers.  For example, the name "Keetoowah" in the name of the United Keetoowah Band tribe is written in Cherokee as ᎩᏚᏩ, which transliterates as "Giduwa" (or, more commonly, "Kituwa"), but it's pronounced "Keetoowah".
 * **pronunciation_us** *(str)* - An approximate pronunciation based on American English.
 * **pronunciation_notes** *(str)* - Extra notes further explaining the pronunciation.
 * **startswith_vowel** *(bool)* - Indicates a syllable that doesn't start with a consonant, which can cause transliteration issues.
