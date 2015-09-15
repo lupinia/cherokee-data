@@ -1,0 +1,5 @@
+*~
+# Yes, the next two could be combined into chr.*, but other files
+# starting with "chr" might be added later.
+chr.db
+chr.txt
