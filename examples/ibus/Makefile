@@ -14,7 +14,7 @@ PREFIX ?= /usr/local
 # Installation directory for ibus-table databases relative to PREFIX
 TABLES_DIR ?= $(PREFIX)/share/ibus-table/tables
 
-CSV = ../../full.csv
+CSV = ../../data/full.csv
 DB = chr.db
 CLEANFILES = chr.txt $(DB)
 

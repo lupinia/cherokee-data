@@ -1,9 +1,10 @@
 # cherokee-data
 Transliteration data files for the Cherokee language and syllabary (ᏣᎳᎩ)
 
-This data maps Cherokee syllabic characters with their common/standardized transliterations, alternate transliterations, position on a syllabary chart, and a pronunciation guide (both IPA and American English equivalence).  It's meant to aid in the design of transliteration and translation scripts/software, language learning tools, or informational displays, but can be useful for anything, so please take it and use it freely!
+This data maps Cherokee syllabic characters with their common/standardized transliterations, alternate transliterations, position on a syllabary chart, and a pronunciation guide (American English equivalence).  It's meant to aid in the design of transliteration and translation scripts/software, language learning tools, or informational displays, but can be useful for anything, so please take it and use it freely!
 
 Assembled by Natasha L. (@lupinia)
+Ibus-table generator script written and contributed by Airtower (@airtower-luna)
 
 Fields
 ------
@@ -26,13 +27,13 @@ Each file will come in CSV, JSON, and XML formats.
 * *(in progress)* "transliterate" contains only the "character" and "transliteration" fields.
 * *(in progress)* "transliterate-alt" contains the "character" and "alt-transliteration" fields, meant to supplement "transliterate".  It does not contain a unique identifier per row.
 
-Notes and Transliteration Special-Cases
----------------------------------------
+Notes and Transliteration Edge-Cases
+------------------------------------
 
-* The syllable "s" (Ꮝ) is a special case, because it's only a half-syllable.  It's used to modify any other syllable to end in a consonant, and never pronounced separately.  Aside from the name of the person who invented the syllabary, Sequoyah (Ssiquoya, ᏍᏏᏉᏯ), this generally never appears at the beginning of a word.
+* The syllable "s" (Ꮝ) is a special case, because it's only a half-syllable.  It's used to modify any other syllable to end in a consonant, and never pronounced separately; for example, the word for "good", "osda" (ᎣᏍᏓ), is pronounced "OHS-dah", not "OH-s-dah".  Aside from the name of the person who invented the syllabary, Sequoyah (Ssiquoya, ᏍᏏᏉᏯ), this generally never appears at the beginning of a word.
 * For syllables that start with a vowel and appear mid-word, disambiguation marks - such as an apostrophe - can be used in the Latin alphabet transliteration to indicate that the vowels are separate syllables (for example, "oli'i" instead of "olii").  There is one exception to this, which a diphthong created by the "ai" combination, pronounced like the long "i" in English; for example, in the word for "icon", ᎠᎢᎧᏂ (aikani).
-* The combination of syllables ending in a consonant, and syllables beginning in a vowel, can cause serious issues when transliterating from Latin letters to  characters.  The "s" syllable (Ꮝ) further complicates this problem, because it can turn any syllable into one that ends in a consonant.
-* Syllables written in the Latin alphabet are often separated with hyphens.
+* The combination of syllables ending in a consonant, and syllables beginning in a vowel, can cause serious issues when transliterating from Latin letters to ᏣᎳᎩ characters.  The "s" syllable (Ꮝ) further complicates this problem, because it can turn any syllable into one that ends in a consonant.
+* Syllables written in the Latin alphabet are often separated with hyphens, for exactly this reason.
 * Syllable emphasis in a given word is something that cannot be programmatically determined for a pronunciation guide.
 * Similarly, Cherokee is a tonal language, and tonal emphasis cannot be programmatically determined.
 
